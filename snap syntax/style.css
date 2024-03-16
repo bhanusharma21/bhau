@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #ACE4E3;
+}
+
+
+.body {
+    height: 400px;
+    position: absolute;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    transform: scale(-50% -50%);
+}
+
+.firstdiv {
+    height: 100px;
+    width: 100%;
+}
+
+.first {
+    font-family: ASTRID GROTESK;
+    color: #0b4350;
+}
+
+.par{
+    text-align: left;
+}
+
+.second {
+    color: #0b4350;
+}
+
+.third {
+    color: #0b4350;
+}
+
+.bar_container{
+    height: 400px;
+    position: absolute;
+    left: 93.5%;
+    top: 40%;
+}
+
+.bar {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b4350;
+}
+
+.bar i {
+    background-color: transparent;
+    color: pink;
+    font-size: 60px;
+    transform: rotate(90deg);
+    
+    position: fixed;
+}
+
+.firstdiv p{
+    position: absolute;
+    top: 390px;
+    left: 50%;
+    font-size: medium;
+}
+
+.sec_page{
+    position: absolute;
+    height: 700px;
+    top: 800px;
+}
+
+.page1{
+    position: absolute;
+    left: 70px;
+    font-size: large;
+    color: #0b4350;
+}
+
+.page2{
+    position: absolute;
+    left: 1350px;
+    background-color: transparent;
+    font-size: large;
+    color: #0b4350;
+}
+
+.page3{
+    position: absolute;
+    top: 650px;
+    left: 70px;
+    font-size: large;
+    color: #0b4350;
+
+}
+
+
+.page4{
+    position: absolute;
+    top: 650px;
+    left: 1350px;
+    font-size: large;
+    background-color: transparent;
+    color: #0b4350;
+}
